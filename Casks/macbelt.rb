@@ -7,7 +7,7 @@ cask "macbelt" do
   desc "Clipboard history and screenshot tool"
   homepage "https://github.com/callumdeas/macbelt-releases"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   auto_updates true
 
   app "Macbelt.app"
